@@ -4,7 +4,7 @@ base profile: demo_umami
 description: "Suggested install profile for decoupled Drupal sites with Umami demo data"
 core_version_requirement: "^8.8 || ^9"
 dependencies:
-  - pantheon:decoupled:pantheon_decoupled
+  - pantheon_decoupled:pantheon_decoupled
 
 themes:
   - gin
