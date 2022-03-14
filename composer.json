@@ -1,0 +1,35 @@
+{
+  "name": "drupal/pantheon_decoupled_umami_demo",
+  "description": "Suggested install profile for decoupled Drupal sites with Umami demo data",
+  "keywords": [
+    "Drupal",
+    "decoupled"
+  ],
+  "type": "drupal-profile",
+  "license": "GPL-2.0+",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    },
+    {
+      "type": "git",
+      "url": "git@github.com:pantheon-systems/pantheon_decoupled.git"
+    }
+  ],
+  "require": {
+    "drupal/pantheon_decoupled": "dev-main"
+  },
+  "minimum-stability": "dev",
+  "homepage": "https://www.drupal.org/project/pantheon_decoupled_umami_demo",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/pantheon_decoupled_umami_demo"
+  },
+  "extra": {
+    "patches": {
+      "drupal/core": {
+        "1356276#675: Allow profiles to define a base/parent profile": "https://www.drupal.org/files/issues/2021-11-18/1356276-675.patch"
+      }
+    }
+  }
+}
