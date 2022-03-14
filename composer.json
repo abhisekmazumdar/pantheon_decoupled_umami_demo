@@ -14,7 +14,7 @@
     },
     {
       "type": "git",
-      "url": "git@github.com:pantheon-systems/pantheon_decoupled.git"
+      "url": "git@github.com:pantheon-systems/drupal_pantheon_decoupled.git"
     }
   ],
   "require": {
