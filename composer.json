@@ -18,7 +18,8 @@
     }
   ],
   "require": {
-    "drupal/pantheon_decoupled": "dev-main"
+    "drupal/pantheon_decoupled": "dev-main",
+    "drupal/gin": "^3.0@beta"
   },
   "minimum-stability": "dev",
   "homepage": "https://www.drupal.org/project/pantheon_decoupled_umami_demo",
