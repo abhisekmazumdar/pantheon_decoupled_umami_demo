@@ -11,14 +11,10 @@
     {
       "type": "composer",
       "url": "https://packages.drupal.org/8"
-    },
-    {
-      "type": "git",
-      "url": "git@github.com:pantheon-systems/drupal_pantheon_decoupled.git"
     }
   ],
   "require": {
-    "drupal/pantheon_decoupled": "dev-main",
+    "drupal/pantheon_decoupled": "^1.0@alpha",
     "drupal/gin": "^3.0@beta"
   },
   "minimum-stability": "dev",
