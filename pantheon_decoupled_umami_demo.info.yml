@@ -2,7 +2,7 @@ name: "Pantheon Decoupled Umami Demo"
 type: profile
 base profile: demo_umami
 description: "Suggested install profile for decoupled Drupal sites with Umami demo data"
-core_version_requirement: "^8.8 || ^9"
+core_version_requirement: "^8.8 || ^9 || ^10"
 dependencies:
   - pantheon_decoupled:pantheon_decoupled
 
