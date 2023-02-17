@@ -21,12 +21,5 @@
   "homepage": "https://www.drupal.org/project/pantheon_decoupled_umami_demo",
   "support": {
     "issues": "https://www.drupal.org/project/issues/pantheon_decoupled_umami_demo"
-  },
-  "extra": {
-    "patches": {
-      "drupal/core": {
-        "3266057#88: Allow profiles to define a base/parent profile [continue of #1356276]": "https://www.drupal.org/files/issues/2022-12-08/3266057-88.patch"
-      }
-    }
   }
 }
